@@ -13,9 +13,9 @@ export const DogBoss = () => {
       }
       
     return (
-        <div className='bodyContainer'>
+        <div className='bodyContainer-b'>
             
-            <button onClick={() => {(size===0) ? navigateToWin() : setSize(size - 100)}}>Fight The Beast!!</button>
+            <button className="fight-button" onClick={() => {(size===0) ? navigateToWin() : setSize(size - 100)}}>Fight The Beast!!</button>
             <div className='bossHolder'>
                 <img src ={kitty} className='boss' width={size} height={size} alt='mousey'/>
             </div>

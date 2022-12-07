@@ -12,9 +12,9 @@ export const Winner = () => {
     
     
     return (
-        <div className='bodyContainer'>
-            <h2>WINNER</h2>
-            <button onClick={() => {navigateToHome()}}>Go Home</button>
+        <div className='bodyContainer-w'>
+            <h2 className="ult-winner">WINNER</h2>
+            <button className='home-button' onClick={() => {navigateToHome()}}>Go Home</button>
         </div>
     )
 }

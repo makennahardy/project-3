@@ -4,26 +4,66 @@
     height: 300px;
 }
 
+.fight-button {
+    border-radius: 6px;
+    border: none;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.home-button {
+    border-radius: 6px;
+    border: none;
+    margin-top: 100px;
+    background-color: white; 
+}
+
+.ult-winner {
+    padding-top: 100px;
+    margin-botton: 100px;
+    color: white;
+    font-size: 200px;
+}
+
 .body-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 40px;
 }
 
 .body-header {
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .bodyContainer {
     text-align: center;
     background-image: url("./images/night.jpeg");
     background-size: 500px;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.bodyContainer-w {
+    text-align: center;
+    background-image: url("./images/night.jpeg");
+    background-size: 500px;
     height: 100vh;
+   
+}
+
+.bodyContainer-b {
+    text-align: center;
+    background-image: url("./images/night.jpeg");
+    background-size: 500px;
+    height: 100vh;
+    
 }
 
 .fighter {
@@ -37,4 +77,59 @@
     justify-content: center;
     align-items: center;
     margin: 50px;
+    margin-bottom: 0px;
 }
+
+.footer-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 530px) {
+   
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 416px) and (max-width: 960px) {
+    .body-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 40px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+  .body-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 40px;
+        
+    }
+    
+    .bodyContainer {
+        padding-bottom: 300px;
+    }
+}
+
