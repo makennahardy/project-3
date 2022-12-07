@@ -1,0 +1,40 @@
+
+.giffy {
+    width: 300px;
+    height: 300px;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+}
+
+.body-header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bodyContainer {
+    text-align: center;
+    background-image: url("./images/night.jpeg");
+    background-size: 500px;
+    height: 100vh;
+}
+
+.fighter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bossHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
